@@ -1,0 +1,26 @@
+lockfileVersion: 5.4
+
+specifiers:
+  yjs: ^13.5.41
+
+dependencies:
+  yjs: 13.5.41
+
+packages:
+
+  /isomorphic.js/0.2.5:
+    resolution: {integrity: sha512-PIeMbHqMt4DnUP3MA/Flc0HElYjMXArsw1qwJZcm9sqR8mq3l8NYizFMty0pWwE/tzIGH3EKK5+jes5mAr85yw==}
+    dev: false
+
+  /lib0/0.2.51:
+    resolution: {integrity: sha512-05Erb3465CxJa38LQlMz4EbetNvRna1S3BzqEjC0/pmp5cQuQSfNNmeS0722Wev1dRlMUp2Cql0gQ55krSXf2Q==}
+    engines: {node: '>=12'}
+    dependencies:
+      isomorphic.js: 0.2.5
+    dev: false
+
+  /yjs/13.5.41:
+    resolution: {integrity: sha512-4eSTrrs8OeI0heXKKioRY4ag7V5Bk85Z4MeniUyown3o3y0G7G4JpAZWrZWfTp7pzw2b53GkAQWKqHsHi9j9JA==}
+    dependencies:
+      lib0: 0.2.51
+    dev: false
