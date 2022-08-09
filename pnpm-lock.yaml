@@ -1,9 +1,11 @@
 lockfileVersion: 5.4
 
 specifiers:
+  typeson: ^7.0.2
   yjs: ^13.5.41
 
 dependencies:
+  typeson: 7.0.2
   yjs: 13.5.41
 
 packages:
@@ -17,6 +19,11 @@ packages:
     engines: {node: '>=12'}
     dependencies:
       isomorphic.js: 0.2.5
+    dev: false
+
+  /typeson/7.0.2:
+    resolution: {integrity: sha512-Rc/BXqUq+pgAc9D3Na+A2iiTlenfzZW9VA2H9DzpYWKOqUMwUaLyu6OQWXCIEiFs1AQ6Fssbed1/subMY/cEag==}
+    engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     dev: false
 
   /yjs/13.5.41:
