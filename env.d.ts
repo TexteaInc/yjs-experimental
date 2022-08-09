@@ -1,6 +1,6 @@
 declare module 'typeson' {
   export type CustomRegister<Type, InternalRepresentation> = [
-    (x: unknown) => boolean,
+    (x: unknown) => x is Type,
     (x: Type) => InternalRepresentation,
     (x: InternalRepresentation) => Type,
   ]

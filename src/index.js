@@ -37,5 +37,6 @@ function createMapProxy (map) {
 const proxy = createMapProxy(yMap)
 
 proxy.a = instanceA
+yMap.set('realA', instanceA)
 console.log('proxy.a', proxy.a)
 console.log('yMap.a', yMap.get('a'))
